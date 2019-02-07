@@ -1,0 +1,44 @@
+{
+  "name": "@rough/rx-gremlin",
+  "version": "1.0.0",
+  "description": "The simplest RxJS wrapper around gremlin lib",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihoro/rough-rx-gremlin.git"
+  },
+  "keywords": [
+    "apache",
+    "tinkerpop",
+    "gremlin",
+    "graph",
+    "graphdb",
+    "db",
+    "database",
+    "connection",
+    "driver",
+    "property",
+    "vertex",
+    "edge",
+    "traverse",
+    "traversal",
+    "traversing",
+    "reactive",
+    "rx",
+    "rxjs",
+    "observable"
+  ],
+  "author": "Igor Ostapenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ihoro/rough-rx-gremlin/issues"
+  },
+  "homepage": "https://github.com/ihoro/rough-rx-gremlin#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "gremlin": "^3.4.0",
+    "rxjs": "^6.4.0"
+  }
+}
