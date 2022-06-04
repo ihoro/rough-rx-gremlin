@@ -44,3 +44,11 @@ g => g.V()
   .toList()
 // ...
 ```
+
+## Configuration
+
+For connection options see official [DriverRemoteConnection class](https://tinkerpop.apache.org/jsdocs/3.6.0/DriverRemoteConnection.html).
+You may pass such options as the second parameter of the constructor, e.g. in order to switch from default GraphSON to GraphBinary protocol you would do the following:
+```js
+new RxGremlin('ws://gremlin-server:8182/gremlin', { mimeType: 'application/vnd.graphbinary-v1.0' });
+```
